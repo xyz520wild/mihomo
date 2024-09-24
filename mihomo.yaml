@@ -70,7 +70,7 @@ allow-lan: true
 bind-address: '*'
 mode: rule # 日志级别 info / silent / error / warning / debug
 log-level: warning
-ipv6: true # IPv6代理开关 true / false
+ipv6: false # IPv6代理开关 true / false
 udp: true
 keep-alive-idle: 600  # 空闲时间 减少移动设备耗电问题
 keep-alive-interval: 15  # 间隔时间 
