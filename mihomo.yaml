@@ -36,10 +36,10 @@ FallBack: &FallBack {type: fallback, interval: 60, lazy: true, url: 'https://www
 LoadBalanceCH: &LoadBalanceCH {type: load-balance, interval: 60, lazy: true, url: 'https://www.gstatic.com/generate_204', disable-udp: false, strategy: consistent-hashing, timeout: 2000, max-failed-times: 3, hidden: true, include-all: true}
 LoadBalanceCR: &LoadBalanceCR {type: load-balance, interval: 60, lazy: true, url: 'https://www.gstatic.com/generate_204', disable-udp: false, strategy: round-robin, timeout: 2000, max-failed-times: 3, hidden: true, include-all: true}
 # 锚点 - 选择组 
-SelectHK: &SelectHK {type: select, proxies: [香港策略, 台湾策略, 新加坡策略, 日本策略, 韩国策略, 美国策略, 欧盟策略, 全球手动, 直连]}
-SelectSG: &SelectSG {type: select, proxies: [新加坡策略, 香港策略, 台湾策略, 日本策略, 韩国策略, 美国策略, 欧盟策略, 全球手动, 直连]}
-SelectUS: &SelectUS {type: select, proxies: [美国策略, 香港策略, 台湾策略, 新加坡策略, 日本策略, 韩国策略, 欧盟策略, 全球手动, 直连]}
-SelectProxy: &SelectProxy {type: select, proxies: [默认代理, 香港策略, 台湾策略, 新加坡策略, 日本策略, 韩国策略, 美国策略, 欧盟策略, 全球手动, 直连]}
+SelectHK: &SelectHK {type: select, proxies: [香港策略, 台湾策略, 新加坡策略, 日本策略, 韩国策略, 美国策略, 欧盟策略, 全球手动, 直连, fallback]}
+SelectSG: &SelectSG {type: select, proxies: [新加坡策略, 香港策略, 台湾策略, 日本策略, 韩国策略, 美国策略, 欧盟策略, 全球手动, 直连, fallback]}
+SelectUS: &SelectUS {type: select, proxies: [美国策略, 香港策略, 台湾策略, 新加坡策略, 日本策略, 韩国策略, 欧盟策略, 全球手动, 直连, fallback]}
+SelectProxy: &SelectProxy {type: select, proxies: [默认代理, 香港策略, 台湾策略, 新加坡策略, 日本策略, 韩国策略, 美国策略, 欧盟策略, 全球手动, 直连, fallback]}
 # 锚点 - 规则集
 DomainMrs: &DomainMrs {type: http, interval: 86400, behavior: domain, format: mrs}
 DomainText: &DomainText {type: http, interval: 86400, behavior: domain, format: text}
