@@ -363,18 +363,10 @@ rule-providers:
   youtube:
     <<: *DomainMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/youtube.mrs
-  spotify:
-    <<: *DomainMrs
-    url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/spotify.mrs
-  netflix:
-    <<: *DomainMrs
-    url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/netflix.mrs
-  disney:
-    <<: *DomainMrs
-    url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/disney.mrs
-  hbo:
-    <<: *DomainMrs
-    url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/hbo.mrs
+  
+
+
+
   tiktok:
     <<: *DomainMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/tiktok.mrs
@@ -390,12 +382,7 @@ rule-providers:
   microsoft:
     <<: *DomainMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/microsoft.mrs
-  facebook:
-    <<: *DomainMrs
-    url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/facebook.mrs
-  meta:
-    <<: *DomainMrs
-    url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/meta.mrs
+
   google:
     <<: *DomainMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/google.mrs
@@ -445,15 +432,11 @@ rule-providers:
     <<: *DomainMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/cn.mrs
   # IP类
-  facebook_ip:
-    <<: *IPcidrMrs
-    url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/facebook_ip.mrs
+
   google_ip:
     <<: *IPcidrMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/google_ip.mrs
-  netflix_ip:
-    <<: *IPcidrMrs
-    url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/netflix_ip.mrs
+ 
   twitter_ip:
     <<: *IPcidrMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/twitter_ip.mrs
