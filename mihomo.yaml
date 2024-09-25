@@ -364,9 +364,6 @@ rule-providers:
     <<: *DomainMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/youtube.mrs
   
-
-
-
   tiktok:
     <<: *DomainMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/tiktok.mrs
@@ -382,7 +379,6 @@ rule-providers:
   microsoft:
     <<: *DomainMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/microsoft.mrs
-
   google:
     <<: *DomainMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/google.mrs
@@ -436,7 +432,7 @@ rule-providers:
   google_ip:
     <<: *IPcidrMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/google_ip.mrs
- 
+
   twitter_ip:
     <<: *IPcidrMrs
     url: https://mirror.ghproxy.com/https://github.com/666OS/YYDS/raw/main/mihomo/rules/twitter_ip.mrs
@@ -459,35 +455,35 @@ rules:
   - RULE-SET,telegram,Telegram
   - RULE-SET,twitter,Twitter
   - RULE-SET,youtube,YouTube
- # - RULE-SET,spotify,Spotify
- # - RULE-SET,netflix,NetFlix
- # - RULE-SET,disney,Disney
- # - RULE-SET,hbo,国际媒体
- # - RULE-SET,tiktok,TikTok
+ #- RULE-SET,spotify,Spotify
+ #- RULE-SET,netflix,NetFlix
+ #- RULE-SET,disney,Disney
+ #- RULE-SET,hbo,国际媒体
+ #- RULE-SET,tiktok,TikTok
   - RULE-SET,github,Github
   - RULE-SET,onedrive,微软服务
   - RULE-SET,microsoft@cn,国内网站
   - RULE-SET,microsoft,微软服务
-#  - RULE-SET,instagram,脸书服务
-#  - RULE-SET,facebook,脸书服务
-#  - RULE-SET,meta,脸书服务
+# - RULE-SET,instagram,脸书服务
+# - RULE-SET,facebook,脸书服务
+# - RULE-SET,meta,脸书服务
   - RULE-SET,google,谷歌服务
   - RULE-SET,apple-cn,国内网站
   - RULE-SET,apple,苹果服务
   - RULE-SET,paypal@cn,国内网站
- # - RULE-SET,paypal,货币平台
- # - RULE-SET,category-cryptocurrency,货币平台
+ #- RULE-SET,paypal,货币平台
+ #- RULE-SET,category-cryptocurrency,货币平台
   - RULE-SET,cloudflare-cn,国内网站
-  #- RULE-SET,category-games,游戏平台
+ #- RULE-SET,category-games,游戏平台
   - RULE-SET,category-media-cn,国内网站
- # - RULE-SET,category-media,国际新闻
- # - RULE-SET,category-social-media-!cn,社交平台
+ #- RULE-SET,category-media,国际新闻
+ #- RULE-SET,category-social-media-!cn,社交平台
   - RULE-SET,cn_domain,国内网站
   - RULE-SET,geolocation-!cn,国外网站
   # IP类
- # - RULE-SET,facebook_ip,脸书服务,no-resolve
+ #- RULE-SET,facebook_ip,脸书服务,no-resolve
   - RULE-SET,google_ip,谷歌服务,no-resolve
- # - RULE-SET,netflix_ip,NetFlix,no-resolve
+ #- RULE-SET,netflix_ip,NetFlix,no-resolve
   - RULE-SET,twitter_ip,Twitter,no-resolve
   - RULE-SET,telegram_ip,Telegram,no-resolve
   - RULE-SET,cn_ip,国内网站,no-resolve
