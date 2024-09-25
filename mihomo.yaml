@@ -469,9 +469,9 @@ rules:
 # - RULE-SET,meta,脸书服务
   - RULE-SET,google,谷歌服务
   - RULE-SET,apple-cn,国内网站
-  - RULE-SET,apple,苹果服务
+ # - RULE-SET,apple,苹果服务
   - RULE-SET,paypal@cn,国内网站
- #- RULE-SET,paypal,货币平台
+#- RULE-SET,paypal,货币平台
  #- RULE-SET,category-cryptocurrency,货币平台
   - RULE-SET,cloudflare-cn,国内网站
  #- RULE-SET,category-games,游戏平台
